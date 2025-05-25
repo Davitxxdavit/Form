@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Registration Form</h1>
+        <p class="first-p">Fill out the form carefully for registration</p>
+        <hr>
+        <form action="registration">
+            <div class="student-name">
+                <h3>Student Name</h3>
+                <div class="name">
+                    <div class="name-input">
+                        <input type="text">
+                        <span>First Name</span>
+                    </div>
+                    <div class="name-input">
+                        <input type="text">
+                        <span>Middle Name</span>
+                    </div>
+                    <div class="name-input">
+                        <input type="text">
+                        <span>Last Name</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="characteristics">
+                <div class="birth-date">
+                    <h3>Birth Date</h3>
+                    <div class="birth-input">
+                       <input type="date">
+                        <span>date</span>
+                    </div>
+
+
+                </div>
+                <div class="genders">
+                    <h3>Gender</h3>
+                    <select name="ge" id="gender" class="gender-box">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="na">N/A</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="adresses">
+               <h3>Address</h3>
+                <div class="address-wrap">
+                    <input type="text">
+                    <span>Street Address</span>
+                </div>
+                <div class="address-wrap">
+                    <input type="text">
+                    <span>Street Address Line 2</span>
+                </div>
+                <div class="address-wrap2">
+                    <div class="address-wrap">
+                        <input type="text">
+                        <span>City</span>
+                    </div>
+                    <div class="address-wrap">
+                        <input type="text">
+                        <span>State / Province</span>
+                    </div>
+                </div>
+                <div class="address-wrap-long">
+                    <div class="address-wrap">
+                        <input type="text">
+                        <span>Postal / Zip Code</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contact-container">
+                <div class="inner-contact">
+                    <div class="inner-contact1">
+                        <h3>Student E-mail</h3>
+                        <input type="email" placeholder="ex:myname@example.com">
+                        <span>example@example.com</span>
+                    </div>
+                    <div class="inner-contact2">
+                        <h3>Mobile Number</h3>
+                        <input  class="input-number" type="number" placeholder="(000) 000-0000">
+                    </div>
+                </div>
+                <div class="inner-contact">
+                    <div class="inner-contact2">
+                        <h3>Phone Number</h3>
+                        <input class="input-number" type="number" placeholder="(000) 000-0000">
+                    </div>
+                    <div class="inner-contact2">
+                        <h3>Work Number</h3>
+                        <input  class="input-number" type="number" placeholder="(000) 000-0000">
+                    </div>
+                </div>
+
+                <div class="inner-contact">
+                    <div class="inner-contact2">
+                        <h3>company</h3>
+                        <input type="text">
+                    </div>
+                    <div class="inner-contact2">
+                        <h3>Courses</h3>
+                        <select class="courses-select" name="course" id="coursess">
+                            <option value="please-select" selected>Please Select</option>
+                            <option value="windows8">Windows 8</option>
+                            <option value="linux">Introduction To Linux</option>
+                            <option value="english101">English 101</option>
+                            <option value="english102">English 102</option>
+                            <option value="writing1">Creative Writing 1</option>
+                            <option value="writing2">Creative Writing 2</option>
+                            <option value="history101">History 101</option>
+                            <option value="history102">History 102</option>
+                            <option value="math101">Math 101</option>
+                            <option value="math102">Math 102</option>
+                        </select>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="additional">
+                <h3>Additional Comments</h3>
+                <textarea class="comm-textarea" name="comment" id="com"></textarea>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
